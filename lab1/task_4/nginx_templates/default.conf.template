@@ -1,0 +1,16 @@
+server {
+    listen 80;
+    server_name 0.0.0.0;
+    location /json_server/posts {
+        proxy_pass http://json_server:8000/posts;
+    }
+    location /json_server/comments {
+        proxy_pass http://json_server:8000/comments;
+    }
+    location /json_server/profile {
+        proxy_pass http://json_server:8000/profile;
+    }
+    location /lite_server/ {
+        proxy_pass http://lite_server:3000;
+    }
+}

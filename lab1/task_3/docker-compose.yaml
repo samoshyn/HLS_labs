@@ -1,0 +1,11 @@
+version: '3.0'
+
+services:
+  task_3:
+    image: node
+    working_dir: /data
+    volumes:
+    - ./:/data
+    ports: 
+    - 3000:3000
+    command: bash src.sh

@@ -1,0 +1,61 @@
+http://localhost:8080/json_server/comments
+
+[
+    {
+        "id": 1,
+        "body": "comments1",
+        "postId": 1
+    },
+    {
+        "id": 2,
+        "body": "comments2",
+        "postId": 2
+    },
+    {
+        "id": 3,
+        "body": "comments3",
+        "postId": 3
+    }
+]
+
+
+http://localhost:8080/json_server/posts
+
+[
+    {
+        "id": 1,
+        "title": "title1",
+        "author": "author1"
+    },
+    {
+        "id": 2,
+        "title": "title2",
+        "author": "author2"
+    },
+    {
+        "id": 3,
+        "title": "title3",
+        "author": "author3"
+    }
+]
+
+
+http://localhost:8080/json_server/profile
+
+{
+    "name": "typicode"
+}
+
+http://localhost:8080/lite_server/
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Error</title>
+    </head>
+    <body>
+        <pre>Cannot GET /lite_server/</pre>
+    </body>
+</html>
